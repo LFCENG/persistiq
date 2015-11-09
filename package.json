@@ -1,0 +1,18 @@
+{
+  "name": "persistiq",
+  "version": "1.0.0",
+  "description": "API wrapper for persistiq.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "persistiq",
+    "email",
+    "curl",
+    "wrapper"
+  ],
+  "author": "Luis Correia <luiscorreia.ist@gmail.com> (http://www.popcornmetrics.com)",
+  "license": "ISC"
+}
