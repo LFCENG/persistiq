@@ -72,5 +72,20 @@ setTimeout(function () {
                 });
             });
         });
+        
+        describe('#addLeadsToCampaign()', function(){
+            describe('should add Leads to Campaign', function(done){
+                persistIq.addLeadsToCampaign('c_pny4R3', [{
+                    'id': 'l_N9Byoy'
+                }], function (err, res) {
+                    if (err) {
+                        throw err;
+                    }
+                    console.log('Reponse: persistiq.addLeadsToCampaign');
+                    console.log(res);
+                    done();
+                });
+            });
+        });
     });
 }, 1000);

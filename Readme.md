@@ -86,6 +86,7 @@ List of supported methods:
 * persistiq.listLead
 * persistiq.createLeads
 * persistiq.updateLead
+* persistiq.addLeadsToCampaign
 ```
 
 See [docs](http://lfceng.github.io/persistiq/) for complete API documentation and the [persistIq API documentation](http://apidocs.persistiq.com). See tests for more examples.
